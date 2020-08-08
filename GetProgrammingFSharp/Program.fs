@@ -1,10 +1,6 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿open GetProgrammingFSharp.Capstone1.Program
+module main = 
+    [<EntryPoint>]
+    let main argv =
+        mainCapstone1 100
 
-open System
-
-[<EntryPoint>]
-let main argv =
-    let items = argv.Length
-    printfn "Hello World from F#! \n"
-    printfn "passed in %d items: %A" items argv
-    0 // exit code

@@ -6,8 +6,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Program.fs" />
         <Compile Include="Immutability.fs" />
+        <Compile Include="Capstone1\Car.fs" />
+        <Compile Include="Capstone1\Program.fs" />
+        <Compile Include="Program.fs" />
+        <None Include="CarRecord.fsx" />
     </ItemGroup>
 
 </Project>
