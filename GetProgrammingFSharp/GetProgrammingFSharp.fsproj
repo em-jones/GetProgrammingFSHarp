@@ -9,8 +9,13 @@
         <Compile Include="Immutability.fs" />
         <Compile Include="Capstone1\Car.fs" />
         <Compile Include="Capstone1\Program.fs" />
-        <Compile Include="Program.fs" />
+        <Compile Include="Capstone2\Input.fs" />
+        <Compile Include="Capstone2\Domain.fs" />
+        <Compile Include="Capstone2\Operations.fs" />
+        <Compile Include="Capstone2\Auditing.fs" />
+        <Compile Include="Capstone2\BankAccountMain.fs" />
         <None Include="CarRecord.fsx" />
+        <Compile Include="Program.fs" />
     </ItemGroup>
 
 </Project>
