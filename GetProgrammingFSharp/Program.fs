@@ -1,5 +1,4 @@
-﻿open GetProgrammingFSharp.Capstone1.Program
-open GetProgrammingFSharp.Capstone2.Auditing
+﻿open GetProgrammingFSharp.Capstone2.Auditing
 open GetProgrammingFSharp.Capstone2.BankAccountMain
 module main = 
     [<EntryPoint>]

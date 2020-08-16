@@ -4,15 +4,15 @@ open Operations
 open Auditing
 open System
 
-let creditToAccount account amount =
+let creditToAccount amount account =
     {account with Balance = account.Balance + amount}
-let debitFromAccount account amount = creditToAccount account -amount
+let debitFromAccount amount = creditToAccount -amount
 let validateTransaction (account: Account) (operation, amount) =
     match operation with
     | Withdraw -> if account.Balance > amount then
-        Ok (debitFromAccount account amount) else
+        Ok (debitFromAccount amount account) else
             Error "Not Enough $$$"
-    | Deposit -> Ok (creditToAccount account amount)
+    | Deposit -> Ok (creditToAccount amount account)
     
 let adjust account (operation, amount) =
     validateTransaction account (operation, amount)

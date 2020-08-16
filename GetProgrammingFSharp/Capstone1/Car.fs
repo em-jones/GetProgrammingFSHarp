@@ -1,7 +1,5 @@
 ﻿module GetProgrammingFSharp.Capstone1.Car
 
-open System
-
 let strToLower (str: string) = str.ToLower()
 let strNoWhiteSpace (str: string) = str.Split(' ') |> String.concat ""
 let strToLowerAndNoWhiteSpace = strToLower >> strNoWhiteSpace

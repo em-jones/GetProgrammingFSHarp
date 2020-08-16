@@ -6,16 +6,31 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Immutability.fs" />
         <Compile Include="Capstone1\Car.fs" />
         <Compile Include="Capstone1\Program.fs" />
+        <Compile Include="Capstone1\Operators.fs" />
         <Compile Include="Capstone2\Input.fs" />
         <Compile Include="Capstone2\Domain.fs" />
         <Compile Include="Capstone2\Operations.fs" />
         <Compile Include="Capstone2\Auditing.fs" />
         <Compile Include="Capstone2\BankAccountMain.fs" />
-        <None Include="CarRecord.fsx" />
-        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="Capstone3\Collections.fs" />
+      <Compile Include="Capstone3\Domain.fs" />
+      <Compile Include="Capstone3\Operations.fs" />
+      <Compile Include="Capstone3\FileRepository.fs" />
+      <Compile Include="Capstone3\Auditing.fs" />
+      <None Include="Capstone3\ScratchPad.fsx" />
+      <Compile Include="Capstone3\App.fs" />
+      <Compile Include="Capstone4\ControlFlow.fs" />
+      <Compile Include="Capstone4\DiscriminatingUnions.fs" />
+      <Compile Include="Capstone4\Option.fs" />
+      <Compile Include="Capstone4\DomainModelingWithTypes.fs" />
+      <Compile Include="Immutability.fs" />
+      <None Include="CarRecord.fsx" />
+      <Compile Include="Program.fs" />
     </ItemGroup>
 
 </Project>
